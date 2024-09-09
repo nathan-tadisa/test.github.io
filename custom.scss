@@ -1,0 +1,30 @@
+$secondary: #F3F4F6;
+
+.btn {
+    border-radius: 0 !important;
+    border: 2px solid black !important;
+}
+
+.btn:hover {
+    color: white !important;
+    background-color: black !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: black !important;
+}
+
+.swiper-pagination {
+    position: relative !important;
+    bottom: 0 !important;
+    top: 0 !important;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: black !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Molengo', serif !important;
+}
+@import 'node_modules/bootstrap/scss/bootstrap';
